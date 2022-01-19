@@ -10,6 +10,93 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AOS_UI_Practice">
         <activity
+            android:name=".imageview.ImageView_LayoutGravity_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".imageview.ImageView_Image_Show_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".imageview.ImageViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".checkbox.CheckBox_DrawableRight_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".checkbox.CheckBox_Text_Show_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".checkbox.CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".button.Button_LayoutGravity_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".button.Button_Background_Color_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".button.Button_Font_Color_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".button.Button_Text_Show_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".button.Button_Gravity_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".button.Button_Width_and_Height_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".button.ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".edittext.EditText_BackgroundTint_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".edittext.EditText_Hint_Font_Color_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".edittext.EditText_Hint_Show_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".edittext.EditTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".textview.TextView_MaxLine_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".textview.TextView_Font_Color_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".textview.TextView_FontSize_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".textview.TextView_Show_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".textview.TextView_Gravity_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".textview.TextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.LinearLayout_BackgroundColor_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.LinearLayout_Gravity_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.LinearLayout_Weight_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.LinearLayout_Horizontal_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.LinearLayout_Vertical_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.LinearLayoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

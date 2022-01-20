@@ -9,7 +9,12 @@ import com.example.aos_ui_practice.checkbox.CheckBoxActivity
 import com.example.aos_ui_practice.edittext.EditTextActivity
 import com.example.aos_ui_practice.imageview.ImageViewActivity
 import com.example.aos_ui_practice.layout.LinearLayoutActivity
+import com.example.aos_ui_practice.radiobutton.RadioButtonActivity
+import com.example.aos_ui_practice.recyclerview.RecyclerViewActivity
+import com.example.aos_ui_practice.scrollview.ScrollViewActivity
+import com.example.aos_ui_practice.switchView.SwitchActivity
 import com.example.aos_ui_practice.textview.TextViewActivity
+import com.example.aos_ui_practice.webview.WebViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -54,6 +59,36 @@ class MainActivity : AppCompatActivity() {
         val btnCheckBox = findViewById<Button>(R.id.btnCheckBox)
         btnCheckBox.setOnClickListener {
             val intent = Intent(this, CheckBoxActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnSwitch = findViewById<Button>(R.id.btnSwitch)
+        btnSwitch.setOnClickListener {
+            val intent = Intent(this, SwitchActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnScrollView = findViewById<Button>(R.id.btnScrollView)
+        btnScrollView.setOnClickListener {
+            val intent = Intent(this, ScrollViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnRadioButton = findViewById<Button>(R.id.btnRadioButton)
+        btnRadioButton.setOnClickListener {
+            val intent = Intent(this, RadioButtonActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnWebView = findViewById<Button>(R.id.btnWebView)
+        btnWebView.setOnClickListener {
+            val intent = Intent(this, WebViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnRecyclerView = findViewById<Button>(R.id.btnRecyclerView)
+        btnRecyclerView.setOnClickListener {
+            val intent = Intent(this, RecyclerViewActivity::class.java)
             startActivity(intent)
         }
 

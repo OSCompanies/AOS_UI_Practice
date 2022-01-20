@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.aos_ui_practice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +11,39 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AOS_UI_Practice">
+        android:theme="@style/Theme.AOS_UI_Practice"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".recyclerview.RecyclerView_Use_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerview.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".webview.WebView_LoadUrl_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".webview.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".radiobutton.RadioButton_Use_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".radiobutton.RadioButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scrollview.ScrollView_Use_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".scrollview.ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".switchView.Switch_Check_Status_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".switchView.SwitchActivity"
+            android:exported="false" />
         <activity
             android:name=".imageview.ImageView_LayoutGravity_Activity"
             android:exported="false" />
@@ -80,9 +115,6 @@
             android:exported="false" />
         <activity
             android:name=".layout.LinearLayout_BackgroundColor_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".layout.LinearLayout_Gravity_Activity"
             android:exported="false" />
         <activity
             android:name=".layout.LinearLayout_Weight_Activity"
